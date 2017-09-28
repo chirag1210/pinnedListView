@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chat_frag_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#fff"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="none"
+        app:stackFromEnd="true" />
+
+
+    <!--TOpDate-->
+    <TextView
+        android:id="@+id/titledate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/rounded_corners"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Today"
+        android:visibility="invisible" />
+
+
+    <!-- -Footer for Chat message -->
+
+    <!-- Footer for Comment -->
+
+
+</RelativeLayout>
